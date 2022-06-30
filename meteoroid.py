@@ -10,8 +10,6 @@ display_width = 800
 display_height = 600
 
 
-bg = pygame.image.load('bg.png')
-
 
 black = (0,0,0)
 white = (255,255,255)
