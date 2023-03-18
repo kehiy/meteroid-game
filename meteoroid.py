@@ -3,13 +3,13 @@ import pygame , time , random
 #---------
 pygame.init()
 
-crash_sound = pygame.mixer.Sound("lose-m.wav")
-pygame.mixer.music.load("world-m.ogg")
+crash_sound = pygame.mixer.Sound("./public/lose-m.wav")
+pygame.mixer.music.load("./public/world-m.ogg")
 
 display_width = 800
 display_height = 600
 
-
+bg = pygame.image.load('./public/bg.png')
 
 black = (0,0,0)
 white = (255,255,255)
@@ -17,16 +17,16 @@ red = (255,0,0)
 
 
 display = pygame.display.set_mode((display_width , display_height))
-pygame.display.set_caption('Meteoroid v-1.6.9')
-icon = pygame.image.load('icon1.png')
+pygame.display.set_caption('./public/Meteoroid v-1.6.9')
+icon = pygame.image.load('./public/icon1.png')
 pygame.display.set_icon(icon)
 
 clock = pygame.time.Clock()
 
 
-space_craft = pygame.image.load('space_craft.png')
+space_craft = pygame.image.load('./public/space_craft.png')
 craft_width = 48
-meteor_obj = pygame.image.load('meteor.png')
+meteor_obj = pygame.image.load('./public/meteor.png')
 
     
 def button(msg,x,y,w,h,inac,ac,action=None):
@@ -43,7 +43,7 @@ def button(msg,x,y,w,h,inac,ac,action=None):
                 pygame.quit()
                 
             
-    button_text = pygame.font.Font("freesansbold.ttf" , 20)
+    button_text = pygame.font.Font("./public/freesansbold.ttf" , 20)
     textsurf , textrect =  text_object(msg , button_text)
     textrect.center = ((x + (w/2)) , (y + (h/2)))
     display.blit(textsurf , textrect)
