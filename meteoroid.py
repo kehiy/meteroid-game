@@ -43,7 +43,7 @@ def button(msg,x,y,w,h,inac,ac,action=None):
                 pygame.quit()
                 
             
-    button_text = pygame.font.Font("./public/freesansbold.ttf" , 20)
+    button_text = pygame.font.Font("./public/FreeSansBold.ttf" , 20)
     textsurf , textrect =  text_object(msg , button_text)
     textrect.center = ((x + (w/2)) , (y + (h/2)))
     display.blit(textsurf , textrect)
