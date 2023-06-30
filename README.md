@@ -1,17 +1,22 @@
 # meteroid-game
-a 2D game maked by pygame
+a 2D game made with pygame
 
-## play
+## screen shots
 
-### you should have python installsed!
+<img src="./public/screen_one.png"></img>
+<img src="./public/screen_two.png"></img>
+<img src="./public/screen_three.png"></img>
 
-#### install pygame whit pip:
+# How to play?
+for play the game you need to install python3 and pygame first:
 
-`pip install pygame`
+```bash
+pip install pygame
+```
 
-Enter to meteroid-game folder
-open cmd and run this command:
-`python meteoroid.py`
+when it done you can simply run this command and start playing:
+```bash
+python3 meteoroid.py
+```
 
-
-# enjoy the game 🤞👻😎
+the windows, linux and mac release soon...
