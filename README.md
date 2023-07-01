@@ -19,4 +19,7 @@ when it done you can simply run this command and start playing:
 python3 meteoroid.py
 ```
 
-the windows, linux and mac release soon...
+# Linux
+for runngin on linux you can download the linux version form release and normaly run executable file.
+
+the windows and mac release soon...
