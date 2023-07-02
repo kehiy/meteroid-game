@@ -8,6 +8,8 @@ a 2D game made with pygame
 <img src="./public/screen_three.png"></img>
 
 # How to play?
+
+## run code:
 for play the game you need to install python3 and pygame first:
 
 ```bash
@@ -19,7 +21,14 @@ when it done you can simply run this command and start playing:
 python3 meteoroid.py
 ```
 
-# Linux
-for runngin on linux you can download the linux version form release and normaly run executable file.
+## docker:
 
-the windows and mac release soon...
+build image:
+```bash
+docker build -t meteoroid .
+```
+
+run it:
+```bash
+docker run -it meteoroid
+```
